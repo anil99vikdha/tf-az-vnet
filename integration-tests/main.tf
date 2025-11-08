@@ -1,0 +1,3 @@
+module "vnet" {
+  source = "../.."
+}
