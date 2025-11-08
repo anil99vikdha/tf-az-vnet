@@ -4,13 +4,13 @@ provider "azurerm" {
   # use_oidc = true
 }
 
-# terraform {
-#   cloud {
+terraform { 
+  cloud { 
+    
+    organization = "traindevsecops" 
 
-#     organization = "traindevsecops"
-
-#     workspaces {
-#       name = "resourcegroup"
-#     }
-#   }
-# }
+    workspaces { 
+      name = "tf-az-vnet" 
+    } 
+  } 
+}
