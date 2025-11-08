@@ -1,3 +1,3 @@
 module "vnet" {
-  source = "../.."
+  source = "git::https://github.com/anil99vikdha/tf-az-vnet.git//"
 }
